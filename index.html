@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hjem - Prompt Engineering</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', Arial, sans-serif;
             background: url('images/background.jpg') no-repeat center center fixed;
             background-size: cover;
             text-align: center;
             padding: 20px;
+            color: #333;
         }
         .container {
             max-width: 800px;
@@ -19,20 +21,37 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
         }
         nav {
             margin-bottom: 20px;
+            background: #333;
+            padding: 10px;
+            border-radius: 5px;
         }
         nav a {
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
-            color: #333;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff6347;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 60vh;
+        }
+        .content h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
         }
     </style>
 </head>
@@ -45,8 +64,10 @@
             <a href="contact.html">Kontakt</a>
         </nav>
         
-        <h1>Velkommen til Prompt Engineering</h1>
-        <p>Utforsk hvordan du kan forbedre dine ferdigheter innen prompt engineering.</p>
+        <div class="content">
+            <h1>Velkommen til Prompt Engineering</h1>
+            <p>Utforsk hvordan du kan forbedre dine ferdigheter innen prompt engineering.</p>
+        </div>
     </div>
 </body>
 </html>
