@@ -22,24 +22,30 @@
         }
         nav {
             margin-bottom: 20px;
+            background: #333;
+            padding: 10px;
+            border-radius: 5px;
         }
         nav a {
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
-            color: #333;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff6347;
         }
     </style>
 </head>
 <body>
+    <nav>
+        <a href="index.html">Hjem</a>
+        <a href="about.html">Om oss</a>
+        <a href="gallery.html">Galleri</a>
+        <a href="contact.html">Kontakt</a>
+    </nav>
     <div class="container">
-        <nav>
-            <a href="index.html">Hjem</a>
-            <a href="about.html">Om oss</a>
-            <a href="gallery.html">Galleri</a>
-            <a href="contact.html">Kontakt</a>
-        </nav>
-
         <h1>Kontakt oss</h1>
         <p>Send oss en e-post på <a href="mailto:info@promptengineering.com">info@promptengineering.com</a></p>
     </div>
